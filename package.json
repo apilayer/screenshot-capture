@@ -1,7 +1,7 @@
 {
   "name": "screenshot-capture",
   "version": "0.1.0",
-  "description": "screenshotlayer is a lightweight REST API built to deliver high quality PNG, JPEG & GIF website screenshots at unparalleled speeds and through a simple interface.",
+  "description": "Free URL to Screenshot API - capture crisp and clean snapshots of any website, with any device, any setting and lightning fast. Free for personal use.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,17 +11,10 @@
     "url": "git+https://pmoelgaard@github.com/pmoelgaard/screenshot-capture.git"
   },
   "keywords": [
-    "screenshot",
-    "api",
-    "url",
-    "to",
-    "screenshot",
-    "url",
-    "to",
-    "png",
-    "screenshot",
-    "automation",
-    "api"
+    "screenshot api",
+    "url to screenshot",
+    "url to png",
+    "screenshot automation api"
   ],
   "author": "Peter Andreas Moelgaard <admin@petermolgard.com> (http://petermolgaard.com/)",
   "license": "MIT",
