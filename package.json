@@ -1,6 +1,6 @@
 {
   "name": "screenshot-capture",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Free URL to Screenshot API - capture crisp and clean snapshots of any website, with any device, any setting and lightning fast. Free for personal use.",
   "main": "index.js",
   "scripts": {
