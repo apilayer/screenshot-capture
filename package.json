@@ -4,7 +4,7 @@
   "description": "Free URL to Screenshot API - capture crisp and clean snapshots of any website, with any device, any setting and lightning fast. Free for personal use.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,21 @@
   "bugs": {
     "url": "https://github.com/pmoelgaard/screenshot-capture/issues"
   },
-  "homepage": "https://github.com/pmoelgaard/screenshot-capture#readme"
+  "homepage": "https://github.com/pmoelgaard/screenshot-capture#readme",
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "chai": "^3.4.1",
+    "dotenv": "^2.0.0"
+  },
+  "dependencies": {
+    "async": "^1.5.2",
+    "fs-path": "0.0.22",
+    "jsftp": "^1.5.3",
+    "lodash": "^4.0.1",
+    "moment": "^2.11.1",
+    "node-uuid": "^1.4.7",
+    "promise": "^7.1.1",
+    "request": "^2.69.0"
+  },
+  "tonicExampleFilename": "example/preview.js"
 }
