@@ -1,5 +1,5 @@
 
-[![Travis](https://travis-ci.org/pmoelgaard/screenshot-capture.svg)](Travis)
+[![Travis](https://travis-ci.org/apilayer/screenshot-capture.svg)](Travis)
 
 Node JavaScript wrapper for [the screenshotlayer API](https://screenshotlayer.com/).
 
