@@ -28,8 +28,7 @@ API = function (params, callback, options) {
 
     options = utils.defaults({}, options, this.options, {
             service: API.SERVICE_NAME,
-            method: API.SERVICE_METHOD,
-            encoding: null
+            method: API.SERVICE_METHOD
         }
     );
 
