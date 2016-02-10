@@ -76,8 +76,10 @@ Takes a URL and returns the captured image, optionally if the export or filename
     
 ###### Response
 	The response is a binary array containing the image, this can be piped or streamed. The convenience of passing a filename will make the API save it as a local file before eventually returning the image binary content
+	
+#### Library Specific Parameters
+- filename - a local path to persist the image automatically, if the directory part of the path doesn't exist, the API will create it.
  
-[https://screenshotlayer.com/documentation](https://screenshotlayer.com/documentation)
 
 ---
 
