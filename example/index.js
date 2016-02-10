@@ -13,7 +13,6 @@ var api = new API({
 });
 
 // Random content for each request
-//var url = 'http://itsthisforthat.com/';
 var url = 'https://en.wikipedia.org/wiki/Special:Random';
 
 // CAPTURE - FILE
