@@ -86,65 +86,13 @@ API = function (params, callback, options) {
                     return resolve(result);
                 });
             }
-            //else if (_.has(args, API.PARAM_EXPORT)) {
-            //
-            //    var exportExpr = _.get(args, API.PARAM_EXPORT);
-            //    exportExpr = URL.parse(exportExpr);
-            //
-            //    if (exportExpr.protocol == 's3:') {
-            //        return resolve(result);
-            //    }
-            //    else if (exportExpr.protocol == 'ftp:') {
-            //
-            //        var fileUid = uuid.v4();
-            //        var exportFilename = path.join(__dirname, '../', '.tmp', exportExpr.hostname, fileUid + '.png');
-            //
-            //        async.series(
-            //            [
-            //                function (stepCallback) {
-            //
-            //                    var fs = require('fs-path');
-            //                    fs.writeFile(exportFilename, result, 'base64', function (err) {
-            //                        stepCallback(err);
-            //                    });
-            //
-            //                },
-            //                function (stepCallback) {
-            //
-            //                    var FTPClient = require('jsftp');
-            //                    var ftpClient = new FTPClient({
-            //                        user: exportExpr.auth.split(':')[0],
-            //                        pass: exportExpr.auth.split(':')[1],
-            //                        host: exportExpr.hostname,
-            //                        port: exportExpr.port || 21
-            //                    });
-            //
-            //                    ftpClient.auth(ftpClient.user, ftpClient.pass, function(result) {
-            //
-            //                        var remoteName = exportExpr.pathname +'/'+ fileUid + '.png';
-            //                        ftpClient.put(exportFilename, remoteName, function (err) {
-            //                            if (err) {
-            //                                return stepCallback({});
-            //                            }
-            //                            return stepCallback();
-            //                        })
-            //                    })
-            //                }
-            //            ],
-            //            function (err) {
-            //                if (err) {
-            //                    return reject(err);
-            //                }
-            //                return resolve(result);
-            //            }
-            //        )
-            //
-            //    }
-            //}
             else {
-
                 // and we resolve and return (not necessary to return, but keeps consistency)
                 return resolve(result);
+            }
+
+            if (_.has(args, API.PARAM_EXPORT)) {
+                console.log('Coming soon... the ability to provide feedback to check or successful exports.');
             }
         });
     });
