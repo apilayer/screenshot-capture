@@ -4,7 +4,7 @@ var crypto = require('crypto');
 var async = require('async');
 var path = require('path');
 var URL = require('url');
-var uuid = require('node-uuid');
+var uuid = require('uuid');
 var _ = require('lodash');
 
 var utils = require('../lib/utils');

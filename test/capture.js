@@ -3,7 +3,7 @@ var URL = require('url');
 var fs = require('fs');
 var path = require('path');
 var async = require('async');
-var uuid = require('node-uuid');
+var uuid = require('uuid');
 var utils = require('../lib/utils');
 
 var APIPath = path.join(__dirname, '../', 'index');
