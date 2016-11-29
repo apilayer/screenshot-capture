@@ -2,7 +2,7 @@ var URL = require('url');
 var path = require('path');
 var moment = require('moment');
 var _ = require('lodash');
-var uuid = require('node-uuid');
+var uuid = require('uuid');
 
 var APIPath = path.join(__dirname, '../', 'index');
 var API = require(APIPath);
